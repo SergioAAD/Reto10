@@ -8,3 +8,4 @@ class ModulesController:
         # fetch_one
         records = ModulesModel.query.filter_by(status=1).all() # first()
         g.modules = records
+        print(records)
